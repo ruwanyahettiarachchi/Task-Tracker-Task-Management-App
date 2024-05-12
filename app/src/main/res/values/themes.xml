@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TaskTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/green01</item>
+        <item name="colorPrimaryVariant">@color/green01</item>
+        <item name="android:statusBarColor">@color/green01</item>
+
+    </style>
+
+    <style name="Theme.TaskTracker" parent="Base.Theme.TaskTracker" />
+    
+    
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.TaskTracker</item>
+
+
+    </style>
+    
+    
+</resources>
