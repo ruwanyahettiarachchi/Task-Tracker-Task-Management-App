@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgrnd"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".UpdateTaskActivity">
@@ -15,7 +16,8 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppinss"
         android:text="Edit Task"
-        android:textColor="@color/green01"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:textSize="24sp" />
 
     <ImageView
@@ -34,20 +36,25 @@
         android:layout_below="@id/editTaskHeading"
         android:layout_marginTop="16dp"
         android:background="@drawable/green_border"
+        android:fontFamily="@font/poppinss"
         android:maxLines="1"
         android:padding="12dp"
-        android:textSize="20sp"
-        android:fontFamily="@font/poppinss"/>
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/updateContentEditText"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="387dp"
+        android:layout_height="332dp"
         android:layout_below="@id/updateTitleEditText"
+        android:layout_alignParentBottom="true"
         android:layout_marginTop="12dp"
+        android:layout_marginBottom="239dp"
         android:background="@drawable/green_border"
         android:fontFamily="@font/poppinss"
         android:gravity="top"
         android:hint="Enter Task Description"
-        android:padding="12dp" />
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white" />
 </RelativeLayout>
